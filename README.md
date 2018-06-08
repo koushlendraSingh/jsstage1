@@ -1,4 +1,4 @@
-# Responsive webdev
+# JavaScript
 
 ### This is the repo i have been using to learn javascript.
 
