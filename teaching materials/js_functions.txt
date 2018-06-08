@@ -1,0 +1,99 @@
+q1)
+
+
+function tellFortune(noc,pn,gl,jt)
+{ 
+   var output="You will be a "+ jt +"in" + gl +",and married to " + pn + "with" + noc +" kids";
+
+  console.log(output);
+
+}
+
+tellFortune(1,Ann,America,Doctor);
+tellFortune(2,Bob,Bombay,Engineer);
+tellFortune(3,Carol,China,lawyer);
+
+------------------------
+output
+You will be a doctor in America ,and married to Ann with 1 kids
+You will be a Engineer in Bombay ,and married to Bob with 2 kids
+You will be a lawyer in in china ,and married to Carol with 3 kids
+
+---------------------------------------------------------------------------------------------
+q2)
+
+function calculateDogAge(age,rate)
+{
+	 var nage=age*rate;
+	 var output="Your doggie is "+nage+ "years old in dog years."
+  
+   console.log(output);
+
+ }
+  calculateDogAge(3,2);
+  calculateDogAge(7,7);
+  calculateDogAge(5,7);
+
+------------------------
+output
+Your doggie is 6 years old in dog years.
+Your doggie is 49 years old in dog years.
+Your doggie is 35 years old in dog years.
+
+
+----------------------------------------------------------------------------------------
+  q3)
+
+  function calculateSupply(age,amount)
+  { 
+    var maximumage=90;
+    var ysup=amount*365;
+    var rest=maximumage-age;
+    var totalsupply=ysup * rest;
+
+    var output="You will need" + totalsupply + "to last you until the ripe old age of " + maximummage;
+
+    console.log(ouput); 
+   }
+
+----------------------------------------------------------------------------------------------
+   q4)
+
+   function calcCircumfrence(radius)
+    {  
+      var circ=2*3.14*radius;
+      var output="The circumference is" + circ; 
+      console.log(output);
+    }
+
+     function calcArea(radius)
+    {  
+      var area=3.14*radius*radius;
+      var output="The area is " + area; 
+      console.log(output);
+    }
+
+-----------------------------------------------------------------------------------------------
+
+    q5)
+
+    function celsiustoFahrenheit(cel)
+    { 
+     var far =((cel * 9)/5)+32;
+      var output= cel"C is " + fah "F"; 
+      console.log(output);
+
+    }
+
+     function Fahrenheittocelcius(fah)
+    { 
+     var cel =((fah-32)*5)/9;
+      var output= fah "F is " + cel "C "; 
+      console.log(output);
+
+    }
+
+   }
+
+
+  }

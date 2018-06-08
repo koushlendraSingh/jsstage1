@@ -1,0 +1,155 @@
+Q1)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if (2>1) {
+    document.getElementById("demo").innerHTML = "2 is greater than 1";
+}
+</script>
+
+</body>
+</html>
+
+------------------------
+OUTPUT :2 is greater than 1
+
+
+------------------------------------------------------------------------------------
+
+Q2)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+ if(10 > 5)
+ {
+  document.getElementById("demo").innerHtml="10 is greater than 5";
+  } 
+</script>
+
+</body>
+</html>
+
+-------------------
+Output :10 is greater than 5
+
+
+--------------------------------------------------------------------------------------
+Q3)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var firstName = "John";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+}
+</script>
+
+</body>
+</html>
+
+----------------------------------
+Output:John
+
+
+---------------------------------------------------------------------------------------
+
+Q4)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var firstName = "Greg";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+    else
+    {
+    document.getElementById("demo").innerHTML="You're not John!";}
+}
+</script>
+
+</body>
+</html>
+
+-----------------------------------------
+Output:You're not John
+
+
+
+-------------------------------------------------------------------------------------------
+
+Q5)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var age = 25;
+
+if (age > 18) {
+    document.getElementById("demo").innerHTML = "Old enough";
+} else {
+    document.getElementById("demo").innerHTML = "Too young";
+}
+</script>
+
+</body>
+</html>
+
+------------------------------
+
+Output:Old enough
+
+------------------------------------------------------------------------------------------
+
+Q6)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var greeting;
+var hour = new Date().getHours();
+
+if (hour < 18) {
+    greeting = "Good day";}
+else
+  {  greeting = "Good evening";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
+
+---------------------------
+Ouput: Good day
+
+
+
